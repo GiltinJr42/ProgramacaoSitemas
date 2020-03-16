@@ -67,8 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="diretore.aspx" />
-    <Content Include="exDiretores.aspx" />
     <Content Include="Imagens\bgSite.gif" />
     <Content Include="Imagens\foto.jpg" />
     <Content Include="Imagens\gilbert.jpg" />
@@ -80,20 +78,6 @@
     <Content Include="WebFormInicial.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="diretore.aspx.cs">
-      <DependentUpon>diretore.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="diretore.aspx.designer.cs">
-      <DependentUpon>diretore.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="exDiretores.aspx.cs">
-      <DependentUpon>exDiretores.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="exDiretores.aspx.designer.cs">
-      <DependentUpon>exDiretores.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PáginaInicial.aspx.cs">
       <DependentUpon>PáginaInicial.aspx</DependentUpon>
